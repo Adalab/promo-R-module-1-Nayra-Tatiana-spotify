@@ -1,7 +1,51 @@
+
+*{
+    max-width: 480px;
+    font-family: 'Roboto';
+}
+
 .header{
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 .logo{
     width: 100px;
-    height: 100px;
+    height: 30px;
+    margin-left: 10px;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.section-1{
+    background-color: #1BA4F7;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.titulo{
+    margin: 0px;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+    
+    
+}
+.subtitulo{
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.condiciones{
+    margin-left: 20px;
+    margin-right: 20px;
 }
