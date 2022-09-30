@@ -63,25 +63,35 @@
     font: 1em;
     margin-top: 20px;
 }
-.ventaja-1{
+.section-2{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
-    
 }
 .titulo-2{
-    font-size: 3rem;
+    width: 100%;
+    font-size: 2em;
     text-align: center;
-    margin-left: 20px;
+    font-weight: 900;
+}
+.ventaja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-right: 20px;
-    font-weight:bolder;
+    margin-left: 20px;
 }
 .imagen-ventajas{
-    width: 20%;
+    width: 28%;
+    margin-bottom: 10%;
 }
-
-/*.contenedor-imagen{
-    display: inline-block;
-    width: 20%;
+.texto{
+    width: 100%;
+    margin-left: 15%;   
+}
+.beneficio{
+    font-weight: 900;
+    font-size: 1.1em;   
+}
+.beneficio-descrip{
+    font-size: 0.9em;  
 }
