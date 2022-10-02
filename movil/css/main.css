@@ -170,10 +170,17 @@
         font-size: 14px;
         margin-bottom: 30px;
     }
+<<<<<<< HEAD
    .condiciones{
     width: 500px;
     margin-left: 30px;
     font-size: 12px;
+=======
+    .texto-bandera{
+        text-align: end;
+        margin-right: 90px;
+    }
+>>>>>>> e291789f2785f4a53e904629d4935fa7f8b0e4ac
    
     
     
